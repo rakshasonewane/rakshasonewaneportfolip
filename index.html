@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website - Raksha Sonewane</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+    
+</head>
+<body>
+<div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/logo.png" class="logo">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Skills</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p>Electronics and Telecommunication Engineer</p>
+            <h1>Hi,I'm <span>Raksha Sonewane</span><br> From Priyadarshini<br>College of Engineering</h1>
+        </div>
+    </div>
+</div>
+<!-- -----------about---------- -->
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/user.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>I’m an Electronics and Telecommunication Engineering student passionate about embedded systems, PCB design, and IoT-based solutions. I enjoy building real-world projects that blend hardware and software, turning ideas into functional prototypes.
+
+Currently, I’m interning at PECSA Robotics Pvt. Ltd., where I’m gaining hands-on experience in microcontroller interfacing, circuit design, and embedded programming. This has helped me strengthen my skills in C, C++, and hardware integration.
+
+I’m always eager to learn new technologies, collaborate on innovative projects, and explore opportunities that allow me to grow as an engineer. My goal is to contribute to creating smart, efficient, and sustainable electronic systems that make everyday life easier.</p>
+
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>PCB Design</span><br>Designing Printed Circuit Board</li>
+                        <li><span>Arduino Basics</span><br>Arduino Programming and Integration</li>
+                        <li><span>Embedded Systems</span><br>Knowledge of Embedded Systems and programming languages C and C++</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>June 2025 - Current</span><br>Embedded Engineering Intern at PECSA Robotics Pvt.Ltd</li>
+                        <li><span>2022 - 20__</span><br>Add if you want</li>
+                        <li><span>2022 - 20__</span><br>Add if you want</li>
+                        <li><span>2022 - 20__</span><br>Add if you want</li>
+                    </ul>
+                </div>
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022 - 2026</span><br>B.Tech in Electronic and Telecommunication from Priyadarshini J I College of Engineering, Nagpur (Percentage: 85.45%).</li>
+                        <li><span>2021 - 2022</span><br>HSC from D B Science college, Gondia (Percentage: 62%).</li>
+                        <li><span>2019</span><br>SSC from Shahid Mishra High School, Tirona (Percentage: 87.40%).</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ---------services---------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Skillset</h1>
+        <div class="services-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Embedded Engineering</h2>
+                <p>I have hands-on experience in embedded systems, where I work on PCB design, microcontroller interfacing, and hardware integration. I enjoy creating efficient and reliable embedded solutions that connect hardware to intelligent systems.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fas fa-crop-alt"></i>
+                <h2>C & C++ Programming</h2>
+                <p>I am skilled in C and C++ programming, which I use to design, test, and optimize embedded applications. These languages help me write clean, efficient code for microcontrollers and system-level development.</p>
+                <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fab fa-app-store"></i>
+                <h2>PCB Design</h2>
+                <p>I have practical knowledge of PCB design and manufacturing. I can translate circuit ideas into working hardware layouts, ensuring functionality, compactness, and precision in every design I create.</p>
+                <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ----------portfolio------------ -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Smart Home Automation System</h3>
+                    <p>A project using Arduino and IoT modules (like ESP8266 or NodeMCU) to control lights, fans, and appliances through a mobile app or voice commands.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>Smart Agricultural Kit</h3>
+                    <p>I created a Smart Agricultural Kit that monitors soil moisture, temperature, and humidity to help automate irrigation. The system automatically waters plants when soil moisture drops below a set level, conserving water and improving crop health.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Line Follower Robot</h3>
+                    <p>I designed and programmed a line follower robot that detects and follows a black path using IR sensors. I also created a custom PCB layout for the motor control unit to ensure compact design and reliable performance.</p>
+                    <a href="#"><i class="fas fa-external-link-alt"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more</a>
+    </div>
+</div>
+<!-- ----------contact------------- -->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+                <p><i class="fas fa-paper-plane"></i> rakshasonewane437@gmail.com</p>
+                <p><i class="fas fa-phone-square-alt"></i> 8329368775</p>
+                <div class="social-icons">
+                    <a href="https://facebook.com/"><i class="fab fa-facebook"></i></a>
+                    <a href=""><i class="fab fa-twitter-square"></i></a>
+                    <a href="https://instagram.com/raksha__sonewane"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/raksha-sonewane-03ba20300"><i class="fab fa-linkedin"></i></a>
+                </div>
+                <a href="images/my-cv.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Raksha Sonewane" required>
+                    <input type="email" name="Email" placeholder="rakshasonewane437@gmail.com" required>
+                    <textarea name="Message" rows="6" placeholder="Thank you for visiting my portfolio!
+I’m always open to discussing new opportunities, collaborations, or innovative project ideas.
+Feel free to reach out!"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © Raksh Sonewane.</p>
+    </div>
+</div>
+
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+
+</script>
+
+<script>
+
+    var sidemeu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemeu.style.right = "0";
+    }
+    function closemenu(){
+        sidemeu.style.right = "-200px";
+    }
+
+</script>
+<script>
+    const scriptURL = '< add you own link here >' // add your own app script link here
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },5000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
